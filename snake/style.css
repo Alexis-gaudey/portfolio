@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 196, 161);
+}
+
+h1 {
+    
+}
+
+#game {
+    background-color: black;
+}
