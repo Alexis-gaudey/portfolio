@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contact/style.css">
+  
+</head>
+<body>
+    <div class="corp">
+        <header>
+          <li><a href="/accueil/index.html">Accueil</a></li>
+          <li><a href="/realisation/index.html">Réalisations</a></li>
+          <li><a href="/accueil/index.html"><img src="/image/logo_size_invert.jpg" alt="" class="logo"></a></li>
+          <li><a href="/competence/index.html">Compétences</a></li>
+          <li><a href="/contact/index.html">Contact</a></li>
+    </header>
+
+    <div class="moi">
+
+        <h1><u>Contact</u></h1>
+        <p>Une remarque ? Une suggestion ?
+            N'hésitez-pas à nous écrire. </p>
+
+    </div>
+    <div class="formu">
+      
+        <form id="myform" action="index.php">
+          <table>
+            <tr>
+              <th><label for="texte">Nom</label></th>
+              <td><input type="text" name="Nom" placeholder="Nom" autofocus id="nom"></td> 
+            </tr>
+            
+            <tr>
+              <th><label for="texte">Prénom</label></th>
+              <td><input type="text" name="Prenom" placeholder="Martin" id="prenom"></td>
+            </tr>
+            
+            <tr>
+            <th><label for="texte">E-mail</label></th>
+            <td><input type="text" name="mail" placeholder="adresse@mail.com" id="mail"></td>
+          </tr>  
+          
+          <tr>
+            <th class="com"><label>Message</label></th>
+            <td><textarea cols="50" rows="10" placeholder="Votre Message"></textarea></td>
+          </tr>
+          
+          <tr>
+            <td></td>
+            <th class="btn"><input type="submit" name="Envoyer" value="envoyer" id="formsend"></th>
+          </tr>
+          <p class="er" style="color: red;" id="erreur"></p>
+          
+        </table>
+      </form>
+    </div>
+
+    </div>
+
+    <footer>
+        <h2>Retrouver moi aussi</h2>
+        <a href=""><img src="/image/facebook.png" alt="" class="icon"></a>
+        <a href=""><img src="/image/twitter.png" alt="" class="icon"></a>
+        <a href=""><img src="/image/insta.png" alt="" class="icon"></a>
+    </footer>
+
+<script src="/contact/script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+.corp {
+  display: grid;
+}
+
+header {
+  background-color: black;
+}
+
+a {
+  list-style: none;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 230px;
+  width: 100px;
+  font-size: 30px;
+}
+
+.logo {
+  width: 100px;
+}
+
+h1,
+h2,
+p,
+li {
+  color: white;
+}
+
+.moi {
+  text-align: center;
+  display: block;
+  background-color: #737373;
+}
+
+.icon {
+  width: 100px;
+  padding: 0px 100px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+tr {
+  text-align: justify;
+}
+
+table {
+  margin-left: 630px;
+  background-color: rgb(133, 133, 133);
+}
+
+.formu {
+  background-color: #737373;
+  color: black;
+}
+
+#error{
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  font-size: 30px;
+  margin-left: 750px;
+}
+
+.er{
+  text-align: center;
+}
